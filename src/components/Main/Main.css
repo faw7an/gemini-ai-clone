@@ -1,30 +1,33 @@
-.main{
+.main {
     flex: 1;
     min-height: 100vh;
     padding-bottom: 15vh;
     position: relative;
 }
 
-.main .nav{
+.main .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 22px;
     padding: 20px;
-   color: #585858;
+    color: #585858;
 }
 
-.main .nav img{
-    width: 40px;
+.main .nav img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
-.main-container{
+.main-container {
     max-width: 900px;
     margin: auto;
+    margin-bottom: 60px;
 }
 
-.main .greet{
+.main .greet {
     margin: 50px 0;
     font-size: 56px;
     font-weight: 500;
@@ -33,9 +36,91 @@
 
 }
 
-.main .greet span{
-    background: -webkit-linear-gradient(16deg , #4b90ff,#ff5546);
+.main .greet span {
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
     -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent ;
+    -webkit-text-fill-color: transparent;
 
+}
+
+.main .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.main .card {
+    height: 200px;
+    padding: 15px;
+    background-color: #f0f4f9;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.main .card img {
+    width: 35px;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: white;
+    bottom: 10px;
+    right: 10px;
+}
+
+.main .card p {
+    color: #585858;
+    font-size: 17px;
+}
+
+.main .card:hover {
+    background-color: #dfe4ea;
+}
+
+.main-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #f0f4f9;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.search-box img {
+    width: 24px;
+    cursor: pointer;
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.search-box div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.main .bottom-info{
+    text-align: center;
+    font-size: 13px;
+    margin: 15px auto;
+    font-weight: 300;
 }
