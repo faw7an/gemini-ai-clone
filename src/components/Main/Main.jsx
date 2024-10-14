@@ -7,6 +7,7 @@ function Main() {
         <div className="main">
             <div className="nav">
                 <p>Gemini</p>
+                <p>to be removed</p>
                 <img src={assets.me_icon} alt="" />
             </div>
             <div className="main-container">
