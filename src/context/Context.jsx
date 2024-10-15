@@ -3,7 +3,7 @@ import runChat from '../config/gemini'
 export const Context = createContext();
 
 const ContextProvider = (props)=>{
-    const onSent = async=>(prompt){
+    const onSent = async(prompt)=>{
         await runChat(prompt);
         
     }
