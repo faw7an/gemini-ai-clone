@@ -36,6 +36,7 @@
 .sideBar .recent{
     display: flex;
     flex-direction: column;
+    animation: fadeIn 1.5s;
 }
 .sideBar .recent-title{
     margin-top:30px ;
