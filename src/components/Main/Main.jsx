@@ -10,7 +10,7 @@ function Main() {
     return (
         <div className="main">
             <div className="nav">
-                <p>Gemini</p>
+                <p>Javis</p>
                
                 <img src={assets.me_icon} alt="" />
             </div>
@@ -46,7 +46,7 @@ function Main() {
                         <p>{recentPrompt}</p>
                     </div>
                     <div className="result-data">
-                        <img src={assets.gemini_icon} alt="" />
+                        <img src={assets.ai_icon} alt="" />
                         {loading?
                     <div className="loader">
                         <hr />
@@ -73,7 +73,7 @@ function Main() {
                         </div>
                     </div>
                     <p className="bottom-info">
-                        Gemini may display inaccurate info, including about people, so double-check its responses. Your ptivacy and Gemini Apps
+                        Javis may display inaccurate info, including about people, so double-check its responses. Your ptivacy and Javis Apps
                     </p>
                 </div>
             </div>

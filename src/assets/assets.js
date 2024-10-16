@@ -14,10 +14,12 @@ import code_icon from './code_icon.png'
 import send_icon from './send_icon.png'
 import gemini_icon from './gemini_icon.png'
 import me_icon from './me.jpg'
+import ai_icon from './ai.jpeg'
 
 export const assets = {
     history_icon,
     menu_icon,
+    ai_icon,
     plus_icon,
     question_icon,
     setting_icon,

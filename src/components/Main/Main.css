@@ -161,9 +161,10 @@
     display: flex;
     align-items: start;
     gap: 20px;
-
-
 }
+
+
+
 .loader hr{
     border-radius: 4px;
     border: none;
