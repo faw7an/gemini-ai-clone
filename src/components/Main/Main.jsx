@@ -10,7 +10,7 @@ function Main() {
     return (
         <div className="main">
             <div className="nav">
-                <p>Gemini</p>
+                <p>Javis</p>
                
                 <img src={assets.me_icon} alt="" />
             </div>
@@ -18,7 +18,7 @@ function Main() {
                 {!showResult?
                  <>
                  <div className="greet">
-                        <p><span>Hello ,Dev.</span></p>
+                        <p><span>Hello ,Fawzy.</span></p>
                         <p>How can i help you today?</p>
                     </div><div className="cards">
                             <div className="card">
