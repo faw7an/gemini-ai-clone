@@ -18,7 +18,7 @@ function Main() {
                 {!showResult?
                  <>
                  <div className="greet">
-                        <p><span>Hello ,Dev.</span></p>
+                        <p><span>Hello ,Fawzy.</span></p>
                         <p>How can i help you today?</p>
                     </div><div className="cards">
                             <div className="card">
@@ -73,7 +73,11 @@ function Main() {
                         </div>
                     </div>
                     <p className="bottom-info">
+<<<<<<< HEAD
                         Javis may display inaccurate info, including about people, so double-check its responses. Your ptivacy and Javis Apps
+=======
+                        Javis may display inaccurate info, including about people, so double-check its responses. Your ptivacy and Gemini Apps
+>>>>>>> f87f6506d2a8d90039583dedabc90c4f155d0820
                     </p>
                 </div>
             </div>
